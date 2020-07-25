@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Onboarding Screens</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:700,300'>
+<link rel='stylesheet' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- / A set of walkthrough screens in HTML/CSS/JS. A personal experiment with layering images, CSS3 transitions, & flexbox. -->
+<button class='open-walkthrough'>Start</button>
+<div class='walkthrough show reveal'>
+  <div class='walkthrough-pagination'>
+    <a class='dot active'></a>
+    <a class='dot'></a>
+    <a class='dot'></a>
+    <a class='dot'></a>
+    <a class='dot'></a>
+    <a class='dot'></a>
+  </div>
+  <div class='walkthrough-body'>
+    <ul class='screens animate'>
+      <li class='screen active'>
+        <div class='media logo'>
+          <img class='logo' src='../imagenes/imagen6.jpg'>
+        </div>
+        <h3>
+          Empiezan
+          <br>Las Pistas de tu TAI</br>
+        </h3>
+        <p></p>
+      </li>
+      <li class='screen'>
+        <div >
+          <img class='icon' src='../imagenes/imagen5.jpg'>         
+        </div>
+        <h3>
+          MI ALTURA
+          <br></br>
+        </h3>
+        <p>SÍ, CLARO QUE USARIA ESOS TACOS, PERO TOCARIA EL TECHO, O NO?</p>
+      </li>
+      <li class='screen'>
+        <div >
+          <img class='icon' src='../imagenes/imagen1.jpg'>         
+        </div>
+        <h3>
+          VOS TAN TINTO Y YO TAN RUBIA
+          <br></br>
+        </h3>
+        <p>CHIN CHIN PERO NO CON VINO!</p>
+      </li>
+      <li class='screen'>
+        <div class='media comm'>
+          <img class='icon' src='../imagenes/imagen4.jpeg'>
+        </div>
+        <h3>
+          QUIEN ES?
+          <br></br>
+        </h3>
+        <p>NO LO SE, PERO ME GUSTA DORMIR.</p>
+      </li>
+      <li class='screen'>
+        <div class='media files'>
+          <img class='icon' src='../imagenes/imagen3.jpeg'>
+        </div>
+        <h3>
+          HABLANDO DE PERROS
+          <br></br>
+        </h3>
+        <p>ME GUSTAN LOS PERROS GRANDES, PEEEERO EN CASA TREMENDO PICHICHU.</p>
+      </li>
+      <li class='screen'>
+        <div class='media files'>
+          <img class='icon' src='../imagenes/imagenFelizDia.jpeg'>
+        </div>
+        <h3>
+          EL GORDERIO
+          <br></br>
+        </h3>
+        <p>FELIZ DIA A MIS ETERNAS AMIGAS, LAS AMO INFINITAMENTE.</p>
+      </li> 
+    </ul>
+    <button class='prev-screen'>
+      <i class='icon-angle-left'></i>
+    </button>
+    <button class='next-screen'>
+      <i class='icon-angle-right'></i>
+    </button>
+  </div>
+  <div class='walkthrough-footer'>
+    <button class='button next-screen'>Next</button>
+    <button class='button finish close' disabled='true'>Finish</button>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-1.12.0.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
